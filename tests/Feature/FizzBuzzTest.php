@@ -24,11 +24,5 @@ class FizzBuzzTest extends TestCase
 
         $this->assertTrue($fizzbuzz == 0);
         $this->assertFalse($fizzbuzz > 0);
-
-        // if($fizzbuzz > 0){
-        //     $response->assertStatus(400);
-        // }else{
-        //     $response->assertStatus(200);
-        // }
     }
 }
